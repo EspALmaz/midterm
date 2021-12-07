@@ -1,0 +1,201 @@
+body{
+	font-family: "Gill Sans", sans-serif;
+}
+.left{ 
+	background-color: #525151;
+	float: left;
+	margin: auto;
+	padding: 2%;
+	width: 15%;
+	height: 1600px;
+	color: white;
+}
+.left__title{
+	text-align: center;
+}
+.author{
+	font-style: italic;
+}
+.author__link{
+	border: solid #1E90FF;
+	border-radius: 70%;
+	background-color: #1E90FF;
+	text-align: center;
+}
+.courses__link{
+	text-align: center;
+	background-color: #1E90FF;
+	border: solid #1E90FF;
+	border-radius: 10%;
+}
+.center{
+float: left;
+width: 55%;
+margin: auto;
+padding: 2%;
+}
+.center__first-column{
+	width: 49%;
+	float: left;
+
+}
+.first-column__link{
+	text-align: center;
+	background-color: #1E90FF;
+	border: solid #1E90FF;
+	border-radius: 10%;
+	height: 25px;
+	width: 200px;
+	color: white;
+	margin: auto;
+}
+.center__second-column{
+	width: 49%;
+	float: right;
+	padding: 7px;
+}
+.second-column__link{
+	text-align: center;
+	background-color: #1E90FF;
+	border: solid #1E90FF;
+	border-radius: 10%;
+	height: 40px;
+	width: 300px;
+	color: white;
+	margin: auto;
+}
+.center__links{
+	margin: 0 auto;
+    left: 40%;
+
+}
+.center__book{
+	border: solid green;
+	background-color: #68CB5C;
+	height: 320px;
+	padding: 5px;
+	margin: auto;
+}
+.book__info{
+	float: left;
+    width: 70%;
+}
+.book__image{
+	float: right;
+	width: 30%;
+}
+.book__link{
+	border: solid green;
+	background-color: green;
+	color: white;
+	float: left;
+	border-radius: 5%;
+}
+.book__comments{
+	float: left;
+}
+.center__news{
+	border: solid grey;
+	padding: 10px;
+}
+.center__job{
+	border: solid grey;
+	padding: 10px;
+	height: 200px;
+}
+.job__image{
+	float: left;
+}
+.job__text{
+	float: right;
+}
+.center__addition{
+	background-color: grey;
+	height: 50px;
+}
+.addition__author{
+	float: left;
+}
+.addition__link{
+	float: right;
+}
+.link-twit{
+	border: solid #1E90FF;
+	border-radius: 20%;
+	background-color: #1E90FF;
+	text-align: center;
+}
+.right{
+	float: right;
+	width: 20%;
+	background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612690662_135-p-zelenii-vektor-abstraktnii-fon-168.jpg);
+	height: 1660px;
+}
+.right__link{
+
+	color: red;
+	margin: auto;
+	padding: 5px;
+}
+.right__form{
+	padding: 5px;
+	margin: auto;
+}
+.element{
+	color: grey;
+}
+.special{
+	font-size: 40px;
+}
+.click{
+	height: 40px;
+	background-color: #1E90FF;
+	border: solid #1E90FF;
+	color: white;
+}
+.news-mail{
+	height: 40px;
+}
+
+
+
+.center__title {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  text-align: center;
+}
+.center__title span {
+  position: relative;
+  display: inline-block;
+  font-size: 50px;
+  
+  text-transform: uppercase;
+  animation: center__title 1s infinite;
+  animation-delay: calc(.1s * var(--i))
+}
+@keyframes center__title {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+.center__title-more {
+  position: relative;
+  text-align: center;
+}
+.center__title-more span {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
